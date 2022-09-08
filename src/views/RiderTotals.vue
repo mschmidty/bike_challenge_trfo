@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <section class="leader-section">
       <div class="most-activities">
         <h1>Most Activities</h1>
@@ -50,6 +51,7 @@
             <th>Date</th>
             <th>Activity Type</th>
             <th>Distance (Miles)</th>
+            <th>Comments</th>
           </tr>
         </thead>
         
@@ -58,6 +60,7 @@
             <td>{{activity["Activity Date"]}}</td>
             <td>{{activity["Activity"]}}</td>
             <td>{{activity["Miles"]}}</td>
+            <td>{{activity["Comments"]}}</td>
           </tr>
         </tbody>
       </table>
