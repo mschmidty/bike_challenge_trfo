@@ -1,39 +1,44 @@
 <template>
   <div>
     <section class="leader-section">
-      <h1>Most Activities</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Total Activities</th>
-          </tr>
-        </thead>
-        <tbody v-for="person in sortedByActivity" :key="person.key">
-          <tr>
-            <td>{{person.key}}</td>
-            <td>{{person.numActivities}}</td>
-          </tr>
-        </tbody>
-      </table>
-      <h1>Most Miles</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Total Miles</th>
-          </tr>
-        </thead>
-        <tbody v-for="person in sortedByMiles" :key="person.key">
-          <tr>
-            <td>{{person.key}}</td>
-            <td>{{person.totalMiles}}</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="most-activities">
+        <h1>Most Activities</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Total Activities</th>
+            </tr>
+          </thead>
+          <tbody v-for="person in sortedByActivity" :key="person.key">
+            <tr>
+              <td>{{person.key}}</td>
+              <td>{{person.numActivities}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h1>Most Miles</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Total Miles</th>
+            </tr>
+          </thead>
+          <tbody v-for="person in sortedByMiles" :key="person.key">
+            <tr>
+              <td>{{person.key}}</td>
+              <td>{{person.totalMiles}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
     
     <hr>
+
     <h1>Individual Summaries</h1>
     <p>Way to get out there everyone! Keep it up.</p>
     <div v-for="person in riderData" :key="person.key" class="person-summary">
@@ -112,5 +117,13 @@
 <style lang="scss" scoped>
   .person-summary{
     margin-top: 3rem;
+  }
+  .leader-section {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+  }
+  .most-activities{
+    margin-right: 2rem;
   }
 </style>
