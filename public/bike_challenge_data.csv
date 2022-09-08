@@ -1,28 +1,32 @@
-Completion time,Name2,Activity Date,Activity,Miles,Comments
-8/31/22 13:16:32,Jon Whitehead,8/30/2022,Run,3,challenging after coming off of an illness
-9/1/22 12:50:54,Jeff Christenson,9/1/2022,Run,2.15,Yuck
-9/1/22 20:34:36,Jeff Christenson,9/1/2022,Walk,2.15,Less yuck
-9/2/22 7:16:26,Mike Schmidt,9/1/2022,Road Bike Ride,21.82,Haycamp
-9/2/22 13:56:56,Mike Schmidt,9/2/2022,Mountain Bike Ride,20,I’m out of shape. 
-9/2/22 17:09:27,Keith Fox,9/2/2022,Mountain Bike Ride,4,Agueduct BLM - awesome!
-9/2/22 19:39:09,Jeff Christenson,9/2/2022,Walk,2.15,Perty 
-9/3/22 12:20:43,Jeff Christenson,9/3/2022,Walk,2.17,Part of Trust
-9/3/22 12:21:59,Jeff Christenson,9/3/2022,Mountain Bike Ride,5.17,Aqueduct 
-9/4/22 12:34:17,Jeff Christenson,9/4/2022,Ebike,13,"Ride to Dolores, ironically for gas"
-9/5/22 22:30:04,Jeff Christenson,9/5/2022,Walk,2.1,Dog walk
-9/6/22 6:47:31,Patrick Parks,9/5/2022,Mountain Bike Ride,8.5,Boggy
-9/6/22 8:05:07,Patrick Parks,9/3/2022,Mountain Bike Ride,5.17,"Aqueduct, saw 2 sandhill cranes "
-9/6/22 8:06:48,Patrick Parks,9/2/2022,Mountain Bike Ride,3,Neighborhood ride
-9/6/22 8:09:40,Tim Moore,9/5/2022,Mountain Bike Ride,8.11,Test tracks
-9/6/22 8:10:25,Tim Moore,9/4/2022,Mountain Bike Ride,3.61,Test Tracks
-9/6/22 8:10:49,Mike Schmidt,9/4/2022,Mountain Bike Ride,11,Haycamp 
-9/6/22 8:10:49,Tim Moore,9/4/2022,Mountain Bike Ride,7.41,Twin Buttes
-9/6/22 8:15:21,Jeff Christenson,9/6/2022,Ebike ,6,Commute to work
-9/6/22 8:49:41,Patrick Parks,9/4/2022,Kayak/Canoe/Human Powered Water Craft,2.5,Jackson reservoir
-9/6/22 20:22:40,Jeff Christenson,9/6/2022,Ebike,19,To office and chiropractor 
-9/7/22 8:52:21,Garth Nelson,9/2/2022,Run,4.73,Town Run
-9/7/22 8:53:29,Garth Nelson,9/3/2022,Run,4.31,Simon Draw Trails
-9/7/22 8:54:25,Garth Nelson,9/5/2022,Run,4.36,Town Run
-9/7/22 8:55:02,Garth Nelson,9/5/2022,Walk,3.1,Park Walk
-9/7/22 12:05:35,Brian Yaquinto ,9/4/2022,Road Bike Ride,27,Fun
-9/7/22 15:52:17,Patrick Parks,9/7/2022,Mountain Bike Ride,9.7,Boggy-McNeil-Boggy option
+ID,Start time,Completion time,Email,Name,Name2,Activity Date,Activity,Miles,Comments
+1,8/31/22 13:14:54,8/31/22 13:16:32,anonymous,,Jon Whitehead,8/30/2022,Run,3,challenging after coming off of an illness
+2,9/1/22 12:50:15,9/1/22 12:50:54,anonymous,,Jeff Christenson,9/1/2022,Run,2.15,Yuck
+3,9/1/22 20:33:51,9/1/22 20:34:36,anonymous,,Jeff Christenson,9/1/2022,Walk,2.15,Less yuck
+4,9/2/22 7:15:50,9/2/22 7:16:26,anonymous,,Mike Schmidt,9/1/2022,Road Bike Ride,21.82,Haycamp
+5,9/2/22 13:56:24,9/2/22 13:56:56,anonymous,,Mike Schmidt,9/2/2022,Mountain Bike Ride,20,I’m out of shape. 
+6,9/2/22 17:08:08,9/2/22 17:09:27,anonymous,,Keith Fox,9/2/2022,Mountain Bike Ride,4,Agueduct BLM - awesome!
+7,9/2/22 15:52:38,9/2/22 19:39:09,anonymous,,Jeff Christenson,9/2/2022,Walk,2.15,Perty 
+8,9/3/22 12:20:01,9/3/22 12:20:43,anonymous,,Jeff Christenson,9/3/2022,Walk,2.17,Part of Trust
+9,9/3/22 12:20:54,9/3/22 12:21:59,anonymous,,Jeff Christenson,9/3/2022,Mountain Bike Ride,5.17,Aqueduct 
+10,9/4/22 12:33:24,9/4/22 12:34:17,anonymous,,Jeff Christenson,9/4/2022,Ebike,13,"Ride to Dolores, ironically for gas"
+11,9/5/22 22:29:35,9/5/22 22:30:04,anonymous,,Jeff Christenson,9/5/2022,Walk,2.1,Dog walk
+12,9/6/22 6:47:06,9/6/22 6:47:31,anonymous,,Patrick Parks,9/5/2022,Mountain Bike Ride,8.5,Boggy
+13,9/6/22 8:04:15,9/6/22 8:05:07,anonymous,,Patrick Parks,9/3/2022,Mountain Bike Ride,5.17,"Aqueduct, saw 2 sandhill cranes "
+14,9/6/22 8:05:48,9/6/22 8:06:48,anonymous,,Patrick Parks,9/2/2022,Mountain Bike Ride,3,Neighborhood ride
+15,9/6/22 8:09:04,9/6/22 8:09:40,anonymous,,Tim Moore,9/5/2022,Mountain Bike Ride,8.11,Test tracks
+16,9/6/22 8:09:42,9/6/22 8:10:25,anonymous,,Tim Moore,9/4/2022,Mountain Bike Ride,3.61,Test Tracks
+17,9/6/22 8:07:28,9/6/22 8:10:49,anonymous,,Mike Schmidt,9/4/2022,Mountain Bike Ride,11,Haycamp 
+18,9/6/22 8:10:27,9/6/22 8:10:49,anonymous,,Tim Moore,9/4/2022,Mountain Bike Ride,7.41,Twin Buttes
+19,9/6/22 8:14:43,9/6/22 8:15:21,anonymous,,Jeff Christenson,9/6/2022,Ebike ,6,Commute to work
+20,9/6/22 8:46:40,9/6/22 8:49:41,anonymous,,Patrick Parks,9/4/2022,Kayak/Canoe/Human Powered Water Craft,2.5,Jackson reservoir
+21,9/6/22 20:22:02,9/6/22 20:22:40,anonymous,,Jeff Christenson,9/6/2022,Ebike,19,To office and chiropractor 
+22,9/7/22 8:51:04,9/7/22 8:52:21,anonymous,,Garth Nelson,9/2/2022,Run,4.73,Town Run
+23,9/7/22 8:52:23,9/7/22 8:53:29,anonymous,,Garth Nelson,9/3/2022,Run,4.31,Simon Draw Trails
+24,9/7/22 8:53:31,9/7/22 8:54:25,anonymous,,Garth Nelson,9/5/2022,Run,4.36,Town Run
+25,9/7/22 8:54:27,9/7/22 8:55:02,anonymous,,Garth Nelson,9/5/2022,Walk,3.1,Park Walk
+26,9/7/22 10:28:23,9/7/22 12:05:35,anonymous,,Brian Yaquinto ,9/4/2022,Road Bike Ride,27,Fun
+27,9/7/22 15:51:30,9/7/22 15:52:17,anonymous,,Patrick Parks,9/7/2022,Mountain Bike Ride,9.7,Boggy-McNeil-Boggy option
+28,9/7/22 17:30:34,9/7/22 17:31:16,anonymous,,Keith Fox,9/6/2022,Walk,3,FLC Mesa
+29,9/7/22 17:31:36,9/7/22 17:32:01,anonymous,,Keith Fox,9/7/2022,Mountain Bike Ride,4,Aqueduct
+30,9/7/22 20:10:23,9/7/22 20:12:29,anonymous,,Jeff Christenson,9/7/2022,Road Bike Ride,12,"Evening ride To office and back, what’s wrong with me"
+31,9/8/22 8:12:03,9/8/22 8:12:55,anonymous,,Patrick Parks,9/1/2022,Mountain Bike Ride,2,Neighborhood ride
