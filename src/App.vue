@@ -6,7 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div class="wrapper">
     <header>
-      <h1>Tres Rios Field Office September Bike Challenge</h1>
+      <h1>TRFO September Wellness Challenge</h1>
     </header>
     <RouterView />
   </div>

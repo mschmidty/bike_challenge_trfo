@@ -27,7 +27,7 @@
         <tbody v-for="person in sortedByMiles" :key="person.key">
           <tr>
             <td>{{person.key}}</td>
-            <td>{{person.numActivities}}</td>
+            <td>{{person.totalMiles}}</td>
           </tr>
         </tbody>
       </table>
