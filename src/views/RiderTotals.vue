@@ -73,7 +73,7 @@
       }
     },
     mounted(){
-      fetch("../public/bike_challenge_data.csv")
+      fetch("/bike_challenge_data.csv")
         .then(response=>response.text())
         .then(text=>{
           const data = csvParse(text)
