@@ -57,7 +57,7 @@
         
         <tbody v-for="activity in person.values" :key="activity['Completion Time']">
           <tr>
-            <td>{{activity["Activity Date"]}}</td>
+            <td class="date">{{activity["Activity Date"]}}</td>
             <td>{{activity["Activity"]}}</td>
             <td>{{activity["Miles"]}}</td>
             <td>{{activity["Comments"]}}</td>
@@ -128,5 +128,8 @@
   }
   .most-activities{
     margin-right: 2rem;
+  }
+  .date{
+    white-space:nowrap;
   }
 </style>
