@@ -1,6 +1,15 @@
 <template>
   <div>
-
+    <section class="overall-team">
+      <div>
+        <p>Total Team Activities</p>
+        <span>{{totalTeamActivities}}</span>
+      </div>
+      <div>
+        <p>Total Team Miles</p>
+        <span>{{totalTeamMiles}}</span>
+      </div>
+    </section>
     <section class="leader-section">
       <div class="most-activities">
         <h1>Most Activities</h1>
@@ -77,7 +86,9 @@
       return {
         riderData:[],
         sortedByMiles:[],
-        sortedByActivity:[]
+        sortedByActivity:[],
+        totalTeamMiles: 0,
+        totalTeamActivities: 0,
       }
     },
     mounted(){
@@ -96,9 +107,10 @@
             const arrMiles = person["values"].map(activities=>{
               return parseFloat(activities.Miles)
             })
-            person["totalMiles"] = arrMiles.reduce((a,b)=>{
+            const totalMilesRaw = arrMiles.reduce((a,b)=>{
               return a+b
             }, 0)
+            person["totalMiles"] = Math.round(totalMilesRaw * 100)/100
             return person
           })
           this.riderData=finalData
@@ -111,6 +123,14 @@
             finalData,
             arrange([desc('numActivities')])
           )
+          const totalMilesTeam = finalData.reduce((a,b)=>{
+            return a + b.totalMiles
+          }, 0)
+          this.totalTeamMiles = Math.round(totalMilesTeam * 100)/100
+          const totalActivitiesTeam = finalData.reduce((a,b)=>{
+            return a + b.numActivities
+          }, 0)
+          this.totalTeamActivities = Math.round(totalActivitiesTeam * 100)/100
         })
     }
    
@@ -118,6 +138,22 @@
 </script>
 
 <style lang="scss" scoped>
+  .overall-team{
+    display:flex;
+    div:first-of-type {
+      margin-right: 2rem;
+    }
+    p{
+      margin-bottom: 0;
+    }
+    span{
+      font-size:5rem;
+      font-weight: bold;
+      background: -webkit-linear-gradient(#6D35FF, #6CEB76);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
   .person-summary{
     margin-top: 3rem;
   }
