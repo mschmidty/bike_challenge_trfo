@@ -96,12 +96,14 @@
       fetch("/bike_challenge_data.csv")
         .then(response=>response.text())
         .then(text=>{
-          const data = csvParse(text)
+          const data = csvParse(text).map(events =>{
+            events["Name2"] = events.Name2.trim()
+            return events
+          })
           const groupedData = tidy(
             data,
             groupBy('Name2', groupBy.entriesObject())
           )
-          //console.log(groupedData)
           const finalData = groupedData.map(person=>{
             person["numActivities"]=person["values"].length
             //Total Miles
@@ -127,7 +129,7 @@
           const totalMilesTeam = finalData.reduce((a,b)=>{
             return a + b.totalMiles
           }, 0)
-          this.totalTeamMiles = Math.round(totalMilesTeam * 100)/100
+          this.totalTeamMiles = Math.round(totalMilesTeam )
           const totalActivitiesTeam = finalData.reduce((a,b)=>{
             return a + b.numActivities
           }, 0)
@@ -151,11 +153,15 @@
   }
   .overall-team{
     display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     div:first-of-type {
       margin-right: 2rem;
     }
     p{
       margin-bottom: 0;
+      font-weight: bold;
+      text-decoration: underline;
     }
     span{
       font-size:5rem;
