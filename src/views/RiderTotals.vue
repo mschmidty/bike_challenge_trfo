@@ -1,5 +1,6 @@
 <template>
   <div>
+    <a href="https://forms.office.com/pages/responsepage.aspx?id=urWTBhhLe02TQfMvQApUlJ-MYlJHCQ1ClCPGgVpb6UNUOVlIWjlKVDZWVFA2MVhQMkJYVVlYUDBINiQlQCN0PWcu" class="link-to-form">Enter Activity</a>
     <section class="overall-team">
       <div>
         <p>Total Team Activities</p>
@@ -138,6 +139,16 @@
 </script>
 
 <style lang="scss" scoped>
+  .link-to-form {
+    display:inline-block;
+    padding: 0.6rem 1rem;
+    margin: 1rem 0 2rem 0;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, #6D35FF 0%, #6CEB76 100%);
+    color: #ffffff;
+    text-decoration:none;
+    border-radius: 5px;
+  }
   .overall-team{
     display:flex;
     div:first-of-type {
